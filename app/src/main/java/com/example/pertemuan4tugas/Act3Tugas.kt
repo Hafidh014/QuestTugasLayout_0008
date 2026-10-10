@@ -16,3 +16,25 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+
+@Composable
+fun CardWidget(
+    name: String,
+    phone: String,
+    location: String,
+    bgColor: Color,
+    nameColor: Color,
+    phoneColor: Color,
+    locationColor: Color,
+    nameFontFamily: FontFamily,
+    nameFontWeight: FontWeight
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 12.dp, vertical = 8.dp),
+        colors = CardDefaults.cardColors(containerColor = bgColor)
+    ) {
+
+    }
+}
