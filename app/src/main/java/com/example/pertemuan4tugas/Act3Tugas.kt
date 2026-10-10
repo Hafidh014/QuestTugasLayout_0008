@@ -50,6 +50,15 @@ fun CardWidget(
 
             Spacer(modifier = Modifier.width(16.dp))
 
+            // Teks tengah
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(text = name)
+                Text(text = phone)
+                Text(text = location)
+            }
+
 
         }
     }
