@@ -105,6 +105,18 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             nameFontWeight = FontWeight.Normal
         )
 
+        // Card 2 - Dega
+        CardWidget(
+            name = stringResource(id = R.string.name2),
+            phone = stringResource(id = R.string.phone2),
+            location = stringResource(id = R.string.location2),
+            bgColor = colorResource(id = R.color.card_2_bg),
+            nameColor = Color.White,
+            phoneColor = colorResource(id = R.color.text_cyan),
+            locationColor = colorResource(id = R.color.text_cream),
+            nameFontFamily = FontFamily.Default,
+            nameFontWeight = FontWeight.Bold
+        )
 
     }
 }
