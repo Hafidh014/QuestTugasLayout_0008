@@ -9,5 +9,9 @@
     <string name="name1">ADI</string>
     <string name="location1">Solo</string>
 
+    <string name="name2">Dega</string>
+    <string name="phone2">085436874190</string>
+    <string name="location2">Jakarta</string>
+
 
 </resources>
