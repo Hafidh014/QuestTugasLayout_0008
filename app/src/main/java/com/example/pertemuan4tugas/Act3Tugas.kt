@@ -47,6 +47,10 @@ fun CardWidget(
                 contentDescription = null,
                 modifier = Modifier.size(80.dp)
             )
+
+            Spacer(modifier = Modifier.width(16.dp))
+
+
         }
     }
 }
