@@ -59,7 +59,14 @@ fun CardWidget(
                 Text(text = location)
             }
 
+            Spacer(modifier = Modifier.width(16.dp))
 
+            // Logo kanan
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(80.dp)
+            )
         }
     }
 }
