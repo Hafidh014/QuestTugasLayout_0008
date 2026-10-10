@@ -12,4 +12,7 @@
     <color name="card_2_bg">#FF7E57C2</color>
     <color name="card_3_bg">#FF0000FF</color>
     <color name="card_4_bg">#FF006400</color>
+
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_yellow">#FFFFFF00</color>
 </resources>
