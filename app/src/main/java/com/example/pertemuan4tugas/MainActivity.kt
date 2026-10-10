@@ -20,10 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pertemuan4TugasTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    AktivitasPertama(
+                        modifier = Modifier.padding(innerPadding))
                 }
             }
         }
