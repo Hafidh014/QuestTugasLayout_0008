@@ -118,5 +118,19 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             nameFontWeight = FontWeight.Bold
         )
 
+        // Card 3 - Ericha
+        CardWidget(
+            name = stringResource(id = R.string.name3),
+            phone = stringResource(id = R.string.phone3),
+            location = stringResource(id = R.string.location3),
+            bgColor = colorResource(id = R.color.card_3_bg),
+            nameColor = Color.White,
+            phoneColor = colorResource(id = R.color.text_cyan),
+            locationColor = Color.White,
+            nameFontFamily = FontFamily.Default,
+            nameFontWeight = FontWeight.Bold
+        )
+
+
     }
 }
