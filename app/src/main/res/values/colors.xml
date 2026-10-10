@@ -15,4 +15,6 @@
 
     <color name="text_white">#FFFFFFFF</color>
     <color name="text_yellow">#FFFFFF00</color>
+    <color name="text_cyan">#FF00E5FF</color>
+    <color name="text_cream">#FFFFF8DC</color>
 </resources>
