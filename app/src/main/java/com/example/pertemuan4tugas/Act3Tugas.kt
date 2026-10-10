@@ -89,5 +89,22 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             text = stringResource(id = R.string.univ),
             fontSize = 22.sp
         )
+
+        Spacer(modifier = Modifier.height(25.dp))
+
+        // Card 1 - ADI
+        CardWidget(
+            name = stringResource(id = R.string.name1),
+            phone = "",
+            location = stringResource(id = R.string.location1),
+            bgColor = colorResource(id = R.color.card_1_bg),
+            nameColor = Color.White,
+            phoneColor = Color.Transparent,
+            locationColor = colorResource(id = R.color.text_yellow),
+            nameFontFamily = FontFamily.Cursive,
+            nameFontWeight = FontWeight.Normal
+        )
+
+
     }
 }
