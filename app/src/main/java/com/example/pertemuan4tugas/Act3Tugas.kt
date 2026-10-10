@@ -131,6 +131,26 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             nameFontWeight = FontWeight.Bold
         )
 
+        // Card 4 - Apid
+        CardWidget(
+            name = stringResource(id = R.string.name4),
+            phone = stringResource(id = R.string.phone4),
+            location = stringResource(id = R.string.location4),
+            bgColor = colorResource(id = R.color.card_4_bg),
+            nameColor = Color.White,
+            phoneColor = colorResource(id = R.color.text_cyan),
+            locationColor = colorResource(id = R.color.text_cream),
+            nameFontFamily = FontFamily.Default,
+            nameFontWeight = FontWeight.Bold
+        )
 
+        Spacer(modifier = Modifier.weight(1f))
+
+        // Copyright
+        Text(
+            text = stringResource(id = R.string.copy),
+            modifier = Modifier
+                .padding(bottom = 50.dp)
+        )
     }
 }
